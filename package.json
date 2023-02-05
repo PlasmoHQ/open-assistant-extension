@@ -1,9 +1,13 @@
 {
   "name": "open-assistant-extension",
-  "displayName": "Open assistant extension",
+  "displayName": "Open Assistant",
   "version": "0.0.1",
   "description": "Browser extension that integrates Open Assistant tasks and workflow right into the browser, enable passive contributions",
-  "author": "L",
+  "license": "MIT",
+  "author": "Plasmo Corp. <foss@plasmo.com>",
+  "contributors": [
+    "louisgv"
+  ],
   "scripts": {
     "dev": "plasmo dev",
     "build": "plasmo build",
@@ -12,16 +16,18 @@
   "dependencies": {
     "plasmo": "0.64.5",
     "react": "18.2.0",
-    "react-dom": "18.2.0"
+    "react-dom": "18.2.0",
+    "tailwindcss": "3.2.4"
   },
   "devDependencies": {
+    "@plasmohq/prettier-plugin-sort-imports": "3.6.1",
     "@types/chrome": "0.0.210",
     "@types/node": "18.11.18",
     "@types/react": "18.0.27",
     "@types/react-dom": "18.0.10",
+    "postcss": "8.4.21",
     "prettier": "2.8.3",
-    "typescript": "4.9.4",
-    "@plasmohq/prettier-plugin-sort-imports": "3.6.1"
+    "typescript": "4.9.4"
   },
   "manifest": {
     "host_permissions": [
